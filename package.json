@@ -1,0 +1,22 @@
+{
+  "name": "meetup",
+  "version": "0.0.1",
+  "description": "Front-End.IL Meetup Demo Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fediltest1/meetup.git"
+  },
+  "keywords": [
+    "Meetup"
+  ],
+  "author": "Vadim Tomnikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fediltest1/meetup/issues"
+  },
+  "homepage": "https://github.com/fediltest1/meetup#readme"
+}
