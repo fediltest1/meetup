@@ -4,12 +4,13 @@ module.exports = function(grunt) {
 
     grunt.registerTask('lint', ['jscs', 'jshint']);
     grunt.registerTask('dependencies', ['clean:src', 'bower']);
-    grunt.registerTask('test', ['clean:coverage']);
+    grunt.registerTask('test', ['clean:test', 'karma']);
     
     grunt.registerTask('default', [
         'clean:dist',
         'lint',
-        'dependencies'
+        'dependencies',
+        'test'
     ]);
     
 };
