@@ -21,6 +21,7 @@
   "homepage": "https://github.com/fediltest1/meetup#readme",
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
     "grunt-contrib-jshint": "^0.11.3",
     "grunt-jscs": "^2.3.0",
     "load-grunt-initconfig": "0.0.2",
