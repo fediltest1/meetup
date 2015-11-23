@@ -1,5 +1,11 @@
 module.exports = function(grunt) {
 
-    grunt.registerTask('default', []);
+    require('load-grunt-initconfig')(grunt);
+
+    grunt.registerTask('lint', ['jscs']);
+    
+    grunt.registerTask('default', [
+        'lint'
+    ]);
     
 };
