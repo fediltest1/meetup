@@ -11,13 +11,15 @@ module.exports = function(grunt) {
         'uglify', 'cssmin', 'htmlmin'
     ]);
     grunt.registerTask('e2e', ['http-server','protractor']);
+    grunt.registerTask('docs', ['ngdocs']);
     
     tasks = [
         'clean:dist',
         'lint',
         'dependencies',
         'test',
-        'compile'
+        'compile',
+        'docs'
     ];
     
     if (process.env.TRAVIS) {
