@@ -13,5 +13,5 @@ module.exports = function(grunt) {
         release: {
             src: 'CHANGELOG.md'
         }
-    }
+    };
 };
