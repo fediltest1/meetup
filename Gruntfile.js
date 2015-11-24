@@ -13,6 +13,7 @@ module.exports = function(grunt) {
     grunt.registerTask('e2e', ['http-server','protractor']);
     grunt.registerTask('docs', ['ngdocs']);
     grunt.registerTask('deploy', ['gh-pages']);
+    grunt.registerTask('changelog', ['conventionalChangelog']);
     
     tasks = [
         'clean:dist',
