@@ -26,6 +26,7 @@
     "grunt-contrib-jshint": "^0.11.3",
     "grunt-jscs": "^2.3.0",
     "grunt-karma": "^0.12.1",
+    "grunt-protractor-runner": "^2.1.0",
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.15",
     "karma-coverage": "^0.5.3",
@@ -33,7 +34,8 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "load-grunt-initconfig": "0.0.2",
     "phantomjs": "^1.9.18",
-    "pre-commit": "^1.1.2"
+    "pre-commit": "^1.1.2",
+    "protractor": "^3.0.0"
   },
   "dependencies": {
     "dev": "^0.1.3",
