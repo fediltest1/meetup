@@ -10,7 +10,7 @@ module.exports = function(grunt) {
         'clean:dist', 'copy', 'rename', 'replace', 'processhtml',
         'uglify', 'cssmin', 'htmlmin'
     ]);
-    grunt.registerTask('e2e', ['protractor']);
+    grunt.registerTask('e2e', ['http-server','protractor']);
     
     tasks = [
         'clean:dist',
