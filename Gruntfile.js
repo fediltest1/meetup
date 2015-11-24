@@ -12,6 +12,7 @@ module.exports = function(grunt) {
     ]);
     grunt.registerTask('e2e', ['http-server','protractor']);
     grunt.registerTask('docs', ['ngdocs']);
+    grunt.registerTask('deploy', ['gh-pages']);
     
     tasks = [
         'clean:dist',
@@ -24,6 +25,7 @@ module.exports = function(grunt) {
     
     if (process.env.TRAVIS) {
         tasks.push('e2e');
+        tasks.push('deploy');
     }
     
     grunt.registerTask('default', tasks);
